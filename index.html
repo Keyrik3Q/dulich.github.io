@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web du lịch</title>
+		<link rel="shortcut icon" href="https://web.pavietnam.vn/images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+		<link rel="stylesheet" type="text/css" href="css/slick.css">
+	</head>
+	<body>
+		
+		<section class="section-menu">
+			<div class="task-menu">
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+				<div class="menu-top">
+					<ul class="ul-menu">
+						<li><a href="#">Trang Chủ</a></li>
+						<li><a href="">Giới Thiệu</a></li>
+						<li><a href="">Tour Du Lịch</a></li>
+						<li><a href="">Dịch Vụ</a></li>
+						<li><a href="">Tin Tức</a></li>
+						<li><a href="">Thư Viện Ảnh</a></li>
+						<li><a href="">Video</a></li>
+						<li><a href="">Liên Hệ</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="br-fill">
+			<div class="title-btn">
+				<div class="title-text">
+					<h1>Biển Xanh - Cát Trắng</h1>
+					<a href="#">Du lịch biển luôn là một trai nghiệm hấp dẫn và thú vị trong bất cứ hoàn cảnh nào</a>
+				</div>
+				<div class="btn-br">
+					<a href="">Trải nghiệm ngay</a>
+				</div>
+			</div>
+		</section>
+		<script src="Scripts/jquery-1.10.2.js"></script>
+		<script src="Scripts/jquery-migrate-1.2.1.min.js"></script>
+		<script src="Scripts/slick.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('.autoplay').slick({
+                dots: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+			});
+		</script>
+	</body>
+</html>
